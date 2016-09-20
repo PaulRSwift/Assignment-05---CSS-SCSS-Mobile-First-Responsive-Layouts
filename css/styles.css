@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: inline-block; }
+
+#app-container {
+  max-width: 960px;
+  display: inline-block; }
+
+.column-container {
+  width: 100%;
+  display: block;
+  font-size: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.column-container > * {
+  font-size: medium;
+  display: inline-block;
+  vertical-align: top; }
+
+.title-box {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+  font-size: 0; }
+
+.box1 {
+  width: 100%;
+  display: inline-block;
+  color: #717172;
+  font-family: "helvetica"; }
+
+.box1 img {
+  padding: 80px; }
+
+.imagebox {
+  width: 100%;
+  font-size: 0; }
+
+.picture {
+  width: 50%; }
+
+.footer {
+  width: 100%;
+  display: inline-block; }
+
+.footercontent {
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid #BBB; }
+
+.closing {
+  width: 100%;
+  display: inline-block; }
+
+.closing button {
+  color: #969696;
+  font-size: 25px;
+  font-weight: bolder;
+  border: 1px solid #6E6E6E;
+  background-color: #6E6E6E;
+  height: 40px;
+  width: 40px;
+  padding: 10px; }
+
+/*Your Styles here*/
+@media screen and (min-width: 768px) {
+  .picture {
+    width: 33.3333%; }
+
+  .box1 {
+    width: 50%; }
+
+  .box1 p {
+    margin-top: 95px;
+    text-align: right; }
+
+  .closing {
+    width: 33.3333%;
+    text-align: left; } }
+@media screen and (min-width: 1024px) {
+  .picture {
+    width: 25%; }
+
+  .box1 {
+    width: 50%; }
+
+  .closing {
+    width: 25%;
+    text-align: left; } }
+
+/*# sourceMappingURL=styles.css.map */
