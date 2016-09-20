@@ -30,9 +30,21 @@ img {
 
 .box1 {
   width: 100%;
+  display: inline-block; }
+
+.menufilter {
+  width: 100%;
   display: inline-block;
   color: #717172;
   font-family: "helvetica"; }
+
+.menu {
+  width: 100%;
+  display: inline-block; }
+
+.filter {
+  width: 100%;
+  display: inline-block; }
 
 .box1 img {
   padding: 80px; }
@@ -46,7 +58,9 @@ img {
 
 .footer {
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: -10px;
+  background-color: 0.2; }
 
 .footercontent {
   text-align: center;
@@ -58,17 +72,24 @@ img {
 
 .closing {
   width: 100%;
-  display: inline-block; }
-
-.closing button {
-  color: #969696;
-  font-size: 25px;
-  font-weight: bolder;
-  border: 1px solid #6E6E6E;
-  background-color: #6E6E6E;
-  height: 40px;
-  width: 40px;
-  padding: 10px; }
+  display: inline-block;
+  margin-left: 0 auto; }
+  .closing button {
+    color: #969696;
+    border-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 1px solid #6E6E6E;
+    background-color: #6E6E6E;
+    height: 40px;
+    width: 40px;
+    padding: 10px; }
+  .closing form {
+    border: 1px solid #BBB;
+    width: 50%;
+    margin: auto auto; }
+  .closing input {
+    border: none; }
 
 /*Your Styles here*/
 @media screen and (min-width: 768px) {
@@ -78,19 +99,46 @@ img {
   .box1 {
     width: 50%; }
 
-  .box1 p {
+  .menufilter {
+    width: 50%;
     margin-top: 95px;
     text-align: right; }
 
+  .menu {
+    width: 25%;
+    border-right: 1px solid #BBB;
+    text-align: right;
+    padding: 8px; }
+
+  .filter {
+    width: 25%;
+    text-align: left;
+    padding: 8px; }
+
   .closing {
-    width: 33.3333%;
-    text-align: left; } }
+    width: 33.3333%; } }
 @media screen and (min-width: 1024px) {
   .picture {
     width: 25%; }
 
   .box1 {
     width: 50%; }
+
+  .menufilter {
+    width: 50%;
+    margin-top: 95px;
+    text-align: right; }
+
+  .menu {
+    width: 25%;
+    border-right: 1px solid #BBB;
+    text-align: right;
+    padding: 8px; }
+
+  .filter {
+    width: 25%;
+    text-align: left;
+    padding: 8px; }
 
   .closing {
     width: 25%;
